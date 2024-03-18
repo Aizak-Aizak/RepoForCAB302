@@ -18,6 +18,15 @@ public class Map {
     public Map(ArrayList<Obstacle> obstacles) {
         this.obstacles.addAll(obstacles);
     }
+    /**
+     * Returns true if the given location is obstructed by an obstacle, and false otherwise.
+     * @param x The x coordinate of the location
+     * @param y The y coordinate of the location
+     * @return True if the given location is obstructed by an obstacle, and false otherwise
+     */
+    public boolean isLocationObstructed(int x, int y) {
+        return getObstacleAtLocation(x, y) != null;
+    }
 
     /**
      * Returns the obstacle at the given location, or null if there is no obstacle at the given location.
