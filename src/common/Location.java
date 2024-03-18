@@ -12,7 +12,7 @@ public class Location {
     /**
      * Constructs a new Location object with the given x and y coordinates.
      * @param x The x coordinate
-     * @param y The y coordinate
+     * @param y The y coordinatee
      */
     public Location(int x, int y) {
         this.x = x;
