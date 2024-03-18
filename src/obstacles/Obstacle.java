@@ -2,7 +2,7 @@ package obstacles;
 
 /**
  * Represents an obstacle that can block some locations on the map,
- * and has a representative symbol
+ * and has a representative symbols
  */
 public interface Obstacle {
     /**
